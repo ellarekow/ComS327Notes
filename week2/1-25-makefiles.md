@@ -70,8 +70,14 @@ Jan 21: ashdkfas
 
 # HOW TO SUBMIT
   *note this is in the syll*
+  ## Connecting to the pyrite
+  * ``` ssh netid@pyrite.cs.iastate.edu
+    ```
+  * ```git clone``` repo
+  * compile and run repo
+  * ```git log > CHANGELOG``` will gnerate this file
 
+  ## creating the tar file (in terminal)
   * ```$ make clean```
   * go to parent directory
-  * ```$ tar cvfz name nameOfFile```
-  * ```$ cp -R direcotyr rekow_ella_assignment0```
+  * ```$ gentar```
